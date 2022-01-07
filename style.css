@@ -1,0 +1,123 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    }
+    .Orange{
+        font-size: 50px;
+        color:green;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    .section01{
+      display:flex;  
+      margin-bottom: 10%;
+    }
+    .sec01{
+        width: 200%;
+        padding-left: 0%;
+        margin: 5%;
+           
+    }
+    .img01{
+        width: 70%;
+        padding-right: 10%;
+        margin: 5%;   
+    }
+.para01{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-align: justify;
+    }
+ .link01{
+        font-size: 20px;
+        text-decoration:burlywood;
+        text-decoration-color:maroon ;
+        background-color: indianred; 
+        padding:10px 40px;
+        color:black;
+        font-weight: 700;
+        border-radius: 5%;
+    }
+.section02{
+    font-size: 30px;  
+    width: 80%;
+    margin:auto;
+    text-align: center;
+   }
+.row{
+   margin-top: 5%;
+   display:flex;   
+   justify-content: space-between;
+}   
+.Mission{
+    flex-basis: 31%;
+    background: lightcyan;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.Mission:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
+}
+.Vission{
+  
+    flex-basis: 31%;
+    background: lightpink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.Vission:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
+}
+.Goals{
+    flex-basis: 31%;
+    background: lightgoldenrodyellow;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.Goals:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
+}
+.imggoals03{
+    margin-left: 500%;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0%;
+}
+
+.section04{
+    display: flex;
+   }
+.section05{
+    display: flex;
+   }
+.img02{
+    width: 50%;
+    padding-top: 10%;
+    padding-right: 10%;
+    margin: auto; 
+}
+.section06{
+    display: flex;
+    margin-top: 5%;
+}
+.section07{
+    display: flex;
+}
+footer{
+    
+    text-align: center;
+    padding: 30px 0;
+}
